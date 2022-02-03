@@ -1,24 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import {
+  CustomLineChart,
+  SimpleAreaChart,
+  StackedAreaChart,
+  SimpleBarChart,
+  PositiveAndNegativeBarChart,
+  LineBarAreaComposedChart,
+  SimpleScatterChart,
+  PieChartWithCustomizedLabel,
+} from "./components/charts";
+import { Card } from "./components/common";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-title">Recharts Examples</div>
+      <Card title="LineChart">
+        <CustomLineChart />
+      </Card>
+
+      <Card title="SimpleAreaChart">
+        <SimpleAreaChart />
+      </Card>
+
+      <Card title="StackedAreaChart">
+        <StackedAreaChart />
+      </Card>
+
+      <Card title="TinyBarChart">
+        <SimpleBarChart />
+      </Card>
+
+      <Card title="PositiveAndNegativeBarChart">
+        <PositiveAndNegativeBarChart />
+      </Card>
+
+      <Card title="LineBarAreaComposedChart">
+        <LineBarAreaComposedChart />
+      </Card>
+
+      <Card title="SimpleScatterChart">
+        <SimpleScatterChart />
+      </Card>
+
+      <Card title="PieChartWithCustomizedLabel">
+        <PieChartWithCustomizedLabel />
+      </Card>
     </div>
   );
 }
