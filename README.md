@@ -3,6 +3,8 @@
 This is a simple project to test [Recharts](https://recharts.org/en-US/) (a composable charting library built on React components).
 Also, I used [Create React App](https://create-react-app.dev/) with TypeScript to create a simple React application.
 
+You can check out [demo site](ntourne.github.io/recharts-demo/).
+
 ## Getting Started
 
 1/ Clone repository.
