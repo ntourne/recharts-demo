@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recharts-demo/static/css/main.06c5b1b8.css",
+    "main.js": "/recharts-demo/static/js/main.04cece4b.js",
+    "static/js/787.497d873c.chunk.js": "/recharts-demo/static/js/787.497d873c.chunk.js",
+    "index.html": "/recharts-demo/index.html",
+    "main.06c5b1b8.css.map": "/recharts-demo/static/css/main.06c5b1b8.css.map",
+    "main.04cece4b.js.map": "/recharts-demo/static/js/main.04cece4b.js.map",
+    "787.497d873c.chunk.js.map": "/recharts-demo/static/js/787.497d873c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06c5b1b8.css",
+    "static/js/main.04cece4b.js"
+  ]
+}
